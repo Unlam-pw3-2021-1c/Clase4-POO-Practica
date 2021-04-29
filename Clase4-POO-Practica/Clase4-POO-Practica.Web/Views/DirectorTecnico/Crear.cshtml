@@ -1,0 +1,42 @@
+﻿@model Entidades.DirectorTecnico
+@{
+    Layout = "";
+    List<Entidades.Arquero> arqueros = ((List<Entidades.Arquero>)ViewData["Arqueros"]);
+    List<Entidades.Delantero> delanteros = ((List<Entidades.Delantero>)ViewData["Delanteros"]);
+}
+<form action="/DirectorTecnico/Crear" method="post">
+    <div>
+        Nombre de Usuario: <input type="text" name="NombreUsuario" value="" />
+    </div>
+    <div>
+        Arquero:
+        <select name="Arquero.Id">
+            <option value="0">Elija Arquero</option>
+            @foreach (Entidades.Arquero arq in arqueros)
+            {
+                <option value="@arq.Id">@arq.Nombre @arq.Apellido</option>
+            }
+        </select>
+    </div>
+    <div>
+        Delantero1:
+        <select name="Delantero1.Id">
+            <option value="0">Elija Delantero</option>
+            @foreach (Entidades.Delantero del in delanteros)
+            {
+                <option value="@del.Id">@del.Nombre @del.Apellido</option>
+            }
+        </select>
+    </div>
+    <div>
+        Delantero2:
+        <select name="Delantero2.Id">
+            <option value="0">Elija Delantero</option>
+            @foreach (Entidades.Delantero del in delanteros)
+            {
+                <option value="@del.Id">@del.Nombre @del.Apellido</option>
+            }
+        </select>
+    </div>
+    <input type="submit" name="name" value="Crear" />
+</form>

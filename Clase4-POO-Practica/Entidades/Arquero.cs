@@ -10,6 +10,10 @@ namespace Entidades
     {
         public int PenalesAtajados { get; set; }
 
+        public Arquero()
+        {
+
+        }
         public Arquero(int id, string nombre, string apellido, bool expulsado, int penalesAtajados) : base(id, nombre, apellido, expulsado)
         {
             PenalesAtajados = penalesAtajados;

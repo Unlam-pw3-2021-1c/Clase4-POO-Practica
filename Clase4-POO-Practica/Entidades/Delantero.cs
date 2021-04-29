@@ -9,6 +9,10 @@ namespace Entidades
     public class Delantero : Jugador
     {
         public int PenalesConvertidos { get; set; }
+        public Delantero()
+        {
+
+        }
         public Delantero(int id, string nombre, string apellido, bool expulsado, int penalesConvertidos) : base(id, nombre, apellido, expulsado)
         {
             PenalesConvertidos = penalesConvertidos;

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase4-POO-Practica.Consola
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{128B5068-5021-4D26-8577-1FE061ADB019}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase4-POO-Practica.Web", "Clase4-POO-Practica.Web\Clase4-POO-Practica.Web.csproj", "{9883BF32-C24C-4DE1-9EDF-3D6AF59978A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{128B5068-5021-4D26-8577-1FE061ADB019}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{128B5068-5021-4D26-8577-1FE061ADB019}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{128B5068-5021-4D26-8577-1FE061ADB019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9883BF32-C24C-4DE1-9EDF-3D6AF59978A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9883BF32-C24C-4DE1-9EDF-3D6AF59978A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9883BF32-C24C-4DE1-9EDF-3D6AF59978A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9883BF32-C24C-4DE1-9EDF-3D6AF59978A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

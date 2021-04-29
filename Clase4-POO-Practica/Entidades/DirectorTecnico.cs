@@ -12,6 +12,10 @@ namespace Entidades
         public Arquero Arquero { get; set; }
         public Delantero Delantero1 { get; set; }
         public Delantero Delantero2 { get; set; }
+        public DirectorTecnico()
+        {
+
+        }
 
         public DirectorTecnico(string nombreUsuario, Arquero arq, Delantero del1, Delantero del2)
         {
