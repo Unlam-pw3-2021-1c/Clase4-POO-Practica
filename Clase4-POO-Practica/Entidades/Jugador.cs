@@ -15,7 +15,12 @@ namespace Entidades
             Apellido = apellido;
             Expulsado = expulsado;
         }
-        public int AjusteExpulsado()
+
+        public override string ToString()
+        {
+            return $"{Nombre} {Apellido} ({CalcularPuntos()})";
+        }
+        protected int AjusteExpulsado()
         {
             if (Expulsado)
             {

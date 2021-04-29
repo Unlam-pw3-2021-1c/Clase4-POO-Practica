@@ -6,4 +6,8 @@
     <RootNamespace>Clase4_POO_Practica.Consola</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Entidades\Entidades.csproj" />
+  </ItemGroup>
+
 </Project>
