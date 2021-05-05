@@ -30,6 +30,15 @@ namespace Clase4_POO_Practica.Consola
             {
                 Console.WriteLine(ganador);
             }
+
+
+            Console.WriteLine("Los Jugadores mas valiosos son:");
+
+            List<Jugador> jugMasValiosos = PremioBatallaPenales.ObtenerJugadoresMasValiosos(Datos.Arqueros, Datos.Delanteros);
+            foreach (var j in jugMasValiosos)
+            {
+                Console.WriteLine(j);
+            }
         }
     }
 }

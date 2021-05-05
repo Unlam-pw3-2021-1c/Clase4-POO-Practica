@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +9,7 @@ namespace Entidades
 {
     public class DirectorTecnico : ICalculaPuntos
     {
+        [Required(ErrorMessage ="Nombre de usuario es requerido")]
         public string NombreUsuario { get; set; }
         public Arquero Arquero { get; set; }
         public Delantero Delantero1 { get; set; }
